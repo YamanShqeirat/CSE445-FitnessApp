@@ -19,8 +19,9 @@
             </div>
 
             <div class="column workout-preference">
+                <h2>Select Workout Preference</h2>
                 <asp:DropDownList ID="DdlWorkouts" runat="server">
-                    <asp:ListItem Enabled="true" Text="Select Workout Preference"></asp:ListItem>
+                    <asp:ListItem Selected="True" Text="Select Workout Preference"></asp:ListItem>
                     <asp:ListItem Text="Strength Training"></asp:ListItem>
                     <asp:ListItem Text="Running"></asp:ListItem>
                     <asp:ListItem Text="Walking"></asp:ListItem>
@@ -36,7 +37,14 @@
                     OnClick="BtnSaveWorkout_Click">
                 </asp:Button>
 
-                <uc:Preference ID="MyUserControl1" runat="server" />
+                <asp:Button 
+                    ID="Button2" 
+                    runat="server" 
+                    text="Clear"
+                    CssClass="save-button"
+                    OnClick="BtnClearWorkout_Click">
+                </asp:Button>
+                <uc:Preference ID="WorkoutPreference" runat="server" />
             </div>
         </section>
 

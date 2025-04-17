@@ -11,16 +11,23 @@ namespace FitnessApplication.User_Control
     {
         public string SelectedOption { get; set; }
 
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_PreRender(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (!string.IsNullOrEmpty(SelectedOption) &&
+                SelectedOption != "No workout selected.")
             {
-                // You can now use SelectedOption in here
-                if (!string.IsNullOrEmpty(SelectedOption))
-                {
-                    LblMessage.Text = "Page selected: " + SelectedOption;
-                }
+                ShowSaved();
+            }
+            else
+            {
+                ShowUnsaved();
             }
         }
+
+        public void ShowSaved() => LblMessage.Text =
+            "Welcome back! Your workout preference has been saved!";
+
+        public void ShowUnsaved() => LblMessage.Text =
+            "Welcome, please select your workout preference.";
     }
 }

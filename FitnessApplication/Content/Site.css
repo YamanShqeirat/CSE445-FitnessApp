@@ -148,6 +148,7 @@ button:hover {
 }
 
 .quote-label {
+    margin-top: 10px;
     font-style: italic;
     color: #00ffae;
     display: block;

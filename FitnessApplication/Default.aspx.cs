@@ -27,9 +27,10 @@ namespace FitnessApplication
                     }
 
                     // 3. Pass the value to the User Control to show the message
-                    MyUserControl1.SelectedOption = workoutCookie.Value;
+                    WorkoutPreference.SelectedOption = workoutCookie.Value;
                 }
             }
+
         }
 
         protected void BtnSaveWorkout_Click(object sender, EventArgs e)
@@ -41,18 +42,38 @@ namespace FitnessApplication
                 // Save to cookie
                 HttpCookie workoutCookie = new HttpCookie("WorkoutPreference");
                 workoutCookie.Value = selectedWorkout;
-                workoutCookie.Expires = DateTime.Now.AddDays(7); //cookie expires every week
+                workoutCookie.Expires = DateTime.Now.AddDays(30); //cookie expires every month
                 Response.Cookies.Add(workoutCookie); //send the cookie to the browser using the server’s response object
 
                 // Update the user control
-                MyUserControl1.SelectedOption = selectedWorkout;
+                WorkoutPreference.SelectedOption = selectedWorkout;
             }
             else
             {
-                MyUserControl1.SelectedOption = "No workout selected.";
+                WorkoutPreference.SelectedOption = "No workout selected.";
                 
             }
         }
+
+        protected void BtnClearWorkout_Click(object sender, EventArgs e)
+        {
+            // Tell the browser to forget the cookie
+            if (Request.Cookies["WorkoutPreference"] != null)
+            {
+                HttpCookie deadCookie = new HttpCookie("WorkoutPreference");
+                deadCookie.Expires = DateTime.Now.AddDays(-1);   // any past date works
+                Response.Cookies.Add(deadCookie);
+            }
+
+            // Reset the dropdown
+            DdlWorkouts.ClearSelection();
+            DdlWorkouts.SelectedIndex = 0;       // first item: “Select Workout Preference”
+
+            // Tell the user‑control what happened
+            WorkoutPreference.SelectedOption = null;   // “no preference”
+            WorkoutPreference.ShowUnsaved();           // helper you’ll add in a moment
+        }
+
 
 
     }
