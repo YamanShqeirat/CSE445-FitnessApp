@@ -1,0 +1,57 @@
+##################################################
+# Ignore Visual Studio files
+##################################################
+
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.db-shm
+*.db-wal
+*.pdb
+*.sln.docstates
+*.vscode/
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+
+##################################################
+# Ignore build output folders
+##################################################
+
+bin/
+obj/
+TestResults/
+Generated_Code/
+
+##################################################
+# Ignore IIS Express config (user-specific)
+##################################################
+
+applicationhost.config
+
+##################################################
+# Ignore temporary files
+##################################################
+
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+
+##################################################
+# Ignore Rider and JetBrains IDEs
+##################################################
+
+.idea/
+
+##################################################
+# Ignore Web deployment artifacts
+##################################################
+
+*.Publish.xml
+*.pubxml
+*.publishproj
