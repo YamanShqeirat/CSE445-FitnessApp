@@ -1,0 +1,161 @@
+﻿/* =================== */
+/* FITNESS HOMEPAGE UI */
+/* =================== */
+
+/* -------- 1. General page background and font setup -------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f;
+    color: ghostwhite; /* body text already white‑ish */
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* -------- 2. Main layout spacing -------- */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+/* -------- 3. Section spacing -------- */
+section {
+    margin-bottom: 2.5rem;
+}
+
+/* -------- 4. Titles & headings -------- */
+h1,
+h2 {
+    color: ghostwhite; /* NEW: white instead of green  */
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* -------- 5. Intro functionality checklist -------- */
+.funcionality {
+    background: #1a1a1a;
+    border-left: 4px solid #00ffae;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+    white-space: pre-line;
+}
+
+/* -------- 6. Form elements, buttons, dropdown -------- */
+select,
+.btn,
+input[type=submit],
+input[type=button],
+button {
+    background: #111;
+    color: ghostwhite; /* NEW: white font              */
+    border: 1px solid ghostwhite; /* NEW: white border             */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+    width:50%;
+}
+
+/* Wider dropdown so text never clips */
+.workout-preference select { /* NEW */
+    width: 50%;
+    min-width: 260px; /* roomy enough for long text    */
+}
+
+select:hover,
+.btn:hover,
+input:hover,
+button:hover {
+    background: ghostwhite; /* invert on hover               */
+    color: #111;
+    cursor: pointer;
+}
+
+/* -------- 7. Service / feature cards -------- */
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch; /* NEW: stretch cards equal‑height */
+}
+
+.col-md-4 {
+    background: #181818;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+    /* NEW — make each card a column flex‑box so the
+       button can sit flush along the bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Lift on hover */
+    .col-md-4:hover {
+        transform: translateY(-5px);
+    }
+
+    /* Paragraphs inside cards: consistent left alignment */
+    .col-md-4 p {
+        text-align: left; /* NEW: align description text   */
+    }
+
+        /* Push the last <p> (the button wrapper) to the bottom */
+        .col-md-4 p:last-child { /* NEW */
+            margin-top: auto;
+        }
+
+/* -------- 8. Link button style -------- */
+.btn-default {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    border: 1px solid ghostwhite; /* NEW: white border             */
+    background-color: transparent;
+}
+
+/* -------- 9. Two‑column layout (checklist + dropdown) -------- */
+.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+    .two-column .column {
+        flex: 1 1 45%;
+        min-width: 500px;
+    }
+
+/* -------- 10. Responsive stacking -------- */
+@media (max-width: 768px) {
+    .two-column,
+    .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .col-md-4 {
+        margin-bottom: 1rem;
+    }
+}
+
+.quote-label {
+    font-style: italic;
+    color: #00ffae;
+    display: block;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-left: 4px solid #00ffae;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+
