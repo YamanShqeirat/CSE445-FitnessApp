@@ -35,6 +35,7 @@
                 <asp:ListItem Text="Walking"></asp:ListItem>
                 <asp:ListItem Text="Yoga"></asp:ListItem>
                 <asp:ListItem Text="Swimming"></asp:ListItem>
+                <asp:ListItem Text="Cycling"></asp:ListItem>
             </asp:DropDownList>
 
             <asp:Button ID="BtnSaveWorkout" runat="server" Text="Save" OnClick="BtnSaveWorkout_Click" style="background:#111; color:ghostwhite; border:1px solid ghostwhite; padding:0.5rem 1rem; font-size:1rem; border-radius:8px; margin-top:0.5rem; transition:all 0.3s ease; width:50%;" />

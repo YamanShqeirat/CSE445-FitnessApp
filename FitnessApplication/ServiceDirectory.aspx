@@ -175,7 +175,7 @@
                         <td style="padding:.75rem;border-bottom:1px solid #333;">weight, minutes, MET</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">Double (calories)</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">
-                            <a href="https://www.calculator.net/calories-burned-calculator.html"
+                            <a href="TryCalorieBurnCalculator.aspx"
                                style="
                                    display:inline-block;
                                    background:#111;

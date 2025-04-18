@@ -160,3 +160,54 @@ button:hover {
 }
 
 
+select,
+.btn,
+input[type=submit],
+input[type=button],
+input[type=text], /* NEW – catches TextBoxes */
+button {
+    background: #111;
+    color: ghostwhite;
+    border: 1px solid ghostwhite;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+    width: 100%; /* NEW – full‑width for calculator */
+}
+
+/* ---------- B. calculator wrapper ---------- */
+.calculator-form {
+    background: #1a1a1a;
+    border-left: 4px solid #00ffae; /* echoes checklist accent */
+    padding: 1.25rem 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; /* neat vertical rhythm */
+}
+
+    /* ---------- C. labels inside calculator ---------- */
+    .calculator-form label {
+        font-weight: 600;
+        margin-top: 0.25rem;
+    }
+
+/* ---------- D. button alignment tweak ---------- */
+.btn-calc {
+    width: auto; /* keeps it from stretching full width */
+    align-self: flex-start;
+}
+
+/* ---------- E. result text ---------- */
+.calc-result {
+    margin-top: 0.75rem;
+    font-weight: bold;
+    color: #00ffae;
+}
+
+.calc-input{
+    margin: 5px;
+
+}

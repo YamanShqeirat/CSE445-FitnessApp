@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="FitnessApplication._Default" %>
 <%@ Register Src="~/User Control/GenerateMotivationQuote.ascx" TagPrefix="uc" TagName="Motivation" %>
 <%@ Register Src="~/User Control/SaveWorkoutPreference.ascx" TagPrefix="uc" TagName="Preference" %>
+<%@ Register Src="~/User Control/CalorieBurnCalculator.ascx"TagPrefix="uc" TagName="CalorieCalc" %>
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
@@ -27,6 +28,7 @@
                     <asp:ListItem Text="Walking"></asp:ListItem>
                     <asp:ListItem Text="Yoga"></asp:ListItem>
                     <asp:ListItem Text="Swimming"></asp:ListItem>
+                    <asp:ListItem Text="Cycling"></asp:ListItem>
                 </asp:DropDownList>
         
                 <asp:Button 
@@ -90,6 +92,60 @@
                 <uc:Motivation ID="MotivationQuote" runat="server" />
             </section>
         </div>
+
+        <!-- Calorie Burn Calculator Section -->
+        <div class="row">
+            <section class="col-md-4" aria-labelledby="calorieTitle">
+                <h2 id="calorieTitle">Try the Calorie Burn Calculator</h2>
+                <p>
+                    Estimate the calories you burn based on your weight, workout duration,
+                    and activity type. This tool helps you make smarter decisions for your
+                    fitness journey.
+                </p>
+
+                <div class="calculator-form">
+
+                    <label for="ddlActionType">Activity</label>
+                    <asp:DropDownList ID="ddlActionType"
+                                      runat="server"
+                                      CssClass="calc-input">
+                             <asp:ListItem Text="-- Select Activity --" Value="" />
+                            <asp:ListItem Text="Running"           Value="Running" />
+                            <asp:ListItem Text="Cycling"           Value="Cycling" />
+                            <asp:ListItem Text="Swimming"          Value="Swimming" />
+                            <asp:ListItem Text="Walking"           Value="Walking" />
+                            <asp:ListItem Text="Strength Training" Value="Strength Training" />
+                            <asp:ListItem Text="Yoga"              Value="Yoga" />
+                      </asp:DropDownList>
+
+                    <label for="txtWeight">Weight (lbs)</label>
+                    <asp:TextBox ID="txtWeight"
+                                 runat="server"
+                                 CssClass="calc-input"
+                                 placeholder="e.g., 150" />
+
+                    <label for="txtDuration">Duration (minutes)</label>
+                    <asp:TextBox ID="txtDuration"
+                                 runat="server"
+                                 CssClass="calc-input"
+                                 placeholder="e.g., 30" />
+
+                    <asp:Button ID="btnCalculate"
+                                runat="server"
+                                Text="Calculate"
+                                CssClass="btn btn-calc"
+                                OnClick="btnCalculate_Click" />
+
+                    <asp:Label ID="lblResult"
+                               runat="server"
+                               CssClass="calc-result" />
+                </div>
+
+                <!-- Integrated User Control (unchanged) -->
+                <uc:CalorieCalc ID="CalorieCalc1" runat="server" />
+            </section>
+        </div>
+
     </main>
 
 </asp:Content>
