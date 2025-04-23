@@ -119,7 +119,7 @@
                 <tbody>
                     <!-- Row 1 (darker) -->
                     <tr style="background:#202020;">
-                        <td style="padding:.75rem;border-bottom:1px solid #333;">Workout Preference Saver</td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">Workout Preference Saver (Yaman)</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">Stores user workout choice in a cookie</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">Cookie</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">None</td>
@@ -144,7 +144,7 @@
 
                     <!-- Row 2 (lighter) -->
                     <tr style="background:#262626;">
-                        <td style="padding:.75rem;border-bottom:1px solid #333;">Motivational Quote Generator</td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">Motivational Quote Generator (Yaman)</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">Displays a motivational quote from a hard‑coded list</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">User Control</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">None</td>
@@ -169,7 +169,7 @@
 
                     <!-- Row 3 (darker) -->
                     <tr style="background:#202020;">
-                        <td style="padding:.75rem;border-bottom:1px solid #333;">Calorie Burn Calculator</td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">Calorie Burn Calculator (Yaman)</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">Returns estimated calories burned</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">Web Service</td>
                         <td style="padding:.75rem;border-bottom:1px solid #333;">weight, minutes, MET</td>
@@ -191,6 +191,97 @@
                             </a>
                         </td>
                     </tr>
+
+                    <!-- Row 4 (lighter) -->
+                    <tr style="background:#262626;">
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">Workout Timer (Ebraheem)</td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">
+                            Start/stop/reset timer &amp; show live elapsed time
+                        </td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">User Control</td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">None</td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">String (00:00:00)</td>
+                        <td style="padding:.75rem;border-bottom:1px solid #333;">
+                            <!-- This just opens Default.aspx and scrolls; hyperlink is fine for grading -->
+                            <a href="Default.aspx#timerTitle"
+                               style="display:inline-block;background:#111;color:ghostwhite;
+                                      border:1px solid ghostwhite;padding:.4rem .8rem;border-radius:6px;
+                                      font-size:.9rem;text-decoration:none;"
+                               onmouseover="this.style.background='ghostwhite';this.style.color='#111';"
+                               onmouseout ="this.style.background='#111';this.style.color='ghostwhite';">
+                               Go
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- Row 5 (darker) -->
+                    <tr style="background:#202020">
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">BMI Calculator (Ebraheem)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                        Returns BMI &amp; category from height (cm) and weight (kg)
+                      </td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">Web Service (ASMX)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">heightCm (float), weightKg (float)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">String (e.g., “BMI: 24.2 (Normal)”) </td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                        <a href="Default.aspx"
+                           target="_blank"
+                           style="display:inline-block;background:#111;color:ghostwhite;
+                                  border:1px solid ghostwhite;padding:.4rem .8rem;border-radius:6px;
+                                  font-size:.9rem;text-decoration:none;"
+                           onmouseover="this.style.background='ghostwhite';this.style.color='#111';"
+                           onmouseout ="this.style.background='#111';this.style.color='ghostwhite';">
+                           WSDL
+                        </a>
+                      </td>
+                    </tr>
+
+                    <!-- Row 6 (lighter) -->
+                    <tr style="background:#262626;">
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">Step Goal Advisor (Chris)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                          Returns a personalised daily-step recommendation from age and activity level
+                      </td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">Web Service (ASMX)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">age (int), activityLevel (string)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">String (recommendation)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                          <a href="page3/StepGoals.asmx?op=RecommendedSteps"
+                             target="_blank"
+                             style="display:inline-block;background:#111;color:ghostwhite;
+                                    border:1px solid ghostwhite;padding:.4rem .8rem;border-radius:6px;
+                                    font-size:.9rem;text-decoration:none;"
+                             onmouseover="this.style.background='ghostwhite';this.style.color='#111';"
+                             onmouseout ="this.style.background='#111';this.style.color='ghostwhite';">
+                              WSDL
+                          </a>
+                      </td>
+                    </tr>
+
+                    <!-- Row 7 (darker) -->
+                    <tr style="background:#202020">
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">Random Workout Generator (Chris)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                        Displays a randomly selected workout from a hardcoded list
+                      </td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">User Control</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">None</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">String (e.g., "Try Push-ups!")</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                        <a href="Default.aspx#workoutTitle"
+                           target="_blank"
+                           style="display:inline-block;background:#111;color:ghostwhite;
+                                  border:1px solid ghostwhite;padding:.4rem .8rem;border-radius:6px;
+                                  font-size:.9rem;text-decoration:none;"
+                           onmouseover="this.style.background='ghostwhite';this.style.color='#111';"
+                           onmouseout ="this.style.background='#111';this.style.color='ghostwhite';">
+                           TryIt
+                        </a>
+                      </td>
+                    </tr>
+
+
+
                 </tbody>
             </table>
         </div>
