@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" 
          CodeBehind="TryMotivationQuote.aspx.cs"
          Inherits="FitnessApplication.TryMotivationQuote" %>
-<%@ Register Src="~/User Control/GenerateMotivationQuote.ascx"
+<%@ Register Src="~/User_Control/GenerateMotivationQuote.ascx"
              TagPrefix="uc" TagName="Motivation" %>
 
 <!DOCTYPE html>

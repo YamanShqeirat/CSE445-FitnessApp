@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TryWorkoutSaver.aspx.cs" Inherits="FitnessApplication.TryWorkoutSaver" %>
-<%@ Register Src="~/User Control/SaveWorkoutPreference.ascx" TagPrefix="uc" TagName="Preference" %>
+<%@ Register Src="~/User_Control/SaveWorkoutPreference.ascx" TagPrefix="uc" TagName="Preference" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
