@@ -224,7 +224,7 @@
                       <td style="padding:.75rem;border-bottom:1px solid #333;">heightCm (float), weightKg (float)</td>
                       <td style="padding:.75rem;border-bottom:1px solid #333;">String (e.g., “BMI: 24.2 (Normal)”) </td>
                       <td style="padding:.75rem;border-bottom:1px solid #333;">
-                        <a href="Default.aspx"
+                        <a href="Default.aspx#bmiTitle"
                            target="_blank"
                            style="display:inline-block;background:#111;color:ghostwhite;
                                   border:1px solid ghostwhite;padding:.4rem .8rem;border-radius:6px;
@@ -246,7 +246,7 @@
                       <td style="padding:.75rem;border-bottom:1px solid #333;">age (int), activityLevel (string)</td>
                       <td style="padding:.75rem;border-bottom:1px solid #333;">String (recommendation)</td>
                       <td style="padding:.75rem;border-bottom:1px solid #333;">
-                          <a href="page3/StepGoals.asmx?op=RecommendedSteps"
+                          <a href="Default.aspx#stepsTitle"
                              target="_blank"
                              style="display:inline-block;background:#111;color:ghostwhite;
                                     border:1px solid ghostwhite;padding:.4rem .8rem;border-radius:6px;
