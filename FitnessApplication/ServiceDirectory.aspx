@@ -280,7 +280,39 @@
                       </td>
                     </tr>
 
-
+                    <!-- Row 8 (lighter) -->
+                    <tr style="background:#262626;">
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">Session Tracker (Ebraheem)</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                          Logs session start/end times to XML. Inputs: (automatic on Session_Start/End) Outputs: App_Data/SessionLog.xml
+                      </td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">Global Control</td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;"> - </td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                             StartTime: 2025-04-16T11:51:47.3507053-07:00 (Example)
+                             EndTime: 2025-04-16T11:53:00.0851512-07:00 (Example)
+                      </td>
+                      <td style="padding:.75rem;border-bottom:1px solid #333;">
+                        <asp:Button
+                            ID="btnEndSession"
+                            runat="server"
+                            Text="Try It"
+                            OnClick="btnEndSession_Click"
+                            style="
+                                display:inline-block;
+                                background:#111;
+                                color:ghostwhite;
+                                border:1px solid ghostwhite;
+                                padding:.4rem .8rem;
+                                border-radius:6px;
+                                font-size:.9rem;
+                                text-decoration:none;
+                                cursor:pointer;
+                                transition:all .3s ease;"
+                            onmouseover="this.style.background='ghostwhite';this.style.color='#111';"
+                            onmouseout ="this.style.background='#111';this.style.color='ghostwhite';" />
+                      </td>
+                    </tr>
 
                 </tbody>
             </table>
