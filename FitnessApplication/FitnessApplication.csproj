@@ -159,6 +159,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="MemberLogin.aspx" />
+    <Content Include="MemberRecords.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -282,6 +283,13 @@
     </Compile>
     <Compile Include="MemberLogin.aspx.designer.cs">
       <DependentUpon>MemberLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberRecords.aspx.cs">
+      <DependentUpon>MemberRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberRecords.aspx.designer.cs">
+      <DependentUpon>MemberRecords.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceDirectory.aspx.cs">
