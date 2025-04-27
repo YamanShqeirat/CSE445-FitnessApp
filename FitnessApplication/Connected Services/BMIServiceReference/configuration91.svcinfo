@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="5OzzIfuhVYKmIe55vrzqFJGVFp/tlDH3Z8V8vx9ByWM=">
+<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="RzRcunixkHVVIZUzZI13b8uOuFSuGxv7AeK9cfPWMpk=">
   <bindingConfigurations>
-    <bindingConfiguration bindingType="basicHttpBinding" name="CalorieCalculatorServiceSoap2">
+    <bindingConfiguration bindingType="basicHttpBinding" name="BMICalculatorSoap">
       <properties>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>CalorieCalculatorServiceSoap2</serializedValue>
+          <serializedValue>BMICalculatorSoap</serializedValue>
         </property>
         <property path="/closeTimeout" isComplexType="false" isExplicitlyDefined="true" clrType="System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -112,11 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-
-    <endpoint name="CalorieCalculatorServiceSoap" contract="CalorieCalculatorServiceReference.CalorieCalculatorServiceSoap" bindingType="basicHttpBinding" address="http://webstrar20.fulton.asu.edu/page0/CalorieCalculatorService.asmx" bindingConfiguration="CalorieCalculatorServiceSoap2">
+    <endpoint name="BMICalculatorSoap" contract="BMIServiceReference.BMICalculatorSoap" bindingType="basicHttpBinding" address="http://webstrar20.fulton.asu.edu/page1/BMICalculator.asmx" bindingConfiguration="BMICalculatorSoap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://webstrar20.fulton.asu.edu/page0/CalorieCalculatorService.asmx</serializedValue>
+          <serializedValue>http://webstrar20.fulton.asu.edu/page1/BMICalculator.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -125,11 +124,10 @@
           <serializedValue>basicHttpBinding</serializedValue>
         </property>
         <property path="/bindingConfiguration" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-
-          <serializedValue>CalorieCalculatorServiceSoap2</serializedValue>
+          <serializedValue>BMICalculatorSoap</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>CalorieCalculatorServiceReference.CalorieCalculatorServiceSoap</serializedValue>
+          <serializedValue>BMIServiceReference.BMICalculatorSoap</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -189,7 +187,7 @@
           <serializedValue>False</serializedValue>
         </property>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>CalorieCalculatorServiceSoap</serializedValue>
+          <serializedValue>BMICalculatorSoap</serializedValue>
         </property>
         <property path="/kind" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

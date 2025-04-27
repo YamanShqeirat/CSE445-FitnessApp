@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="5OzzIfuhVYKmIe55vrzqFJGVFp/tlDH3Z8V8vx9ByWM=">
+<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="CXjo+nO0PPQmtaA0oYS5t+kjYt/fQwSxZrsWePlU3l0=">
   <bindingConfigurations>
-    <bindingConfiguration bindingType="basicHttpBinding" name="CalorieCalculatorServiceSoap2">
+    <bindingConfiguration bindingType="basicHttpBinding" name="StepGoalsSoap">
       <properties>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>CalorieCalculatorServiceSoap2</serializedValue>
+          <serializedValue>StepGoalsSoap</serializedValue>
         </property>
         <property path="/closeTimeout" isComplexType="false" isExplicitlyDefined="true" clrType="System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -112,11 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-
-    <endpoint name="CalorieCalculatorServiceSoap" contract="CalorieCalculatorServiceReference.CalorieCalculatorServiceSoap" bindingType="basicHttpBinding" address="http://webstrar20.fulton.asu.edu/page0/CalorieCalculatorService.asmx" bindingConfiguration="CalorieCalculatorServiceSoap2">
+    <endpoint name="StepGoalsSoap" contract="StepGoalsReference1.StepGoalsSoap" bindingType="basicHttpBinding" address="http://webstrar20.fulton.asu.edu/page2/StepGoals.asmx" bindingConfiguration="StepGoalsSoap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://webstrar20.fulton.asu.edu/page0/CalorieCalculatorService.asmx</serializedValue>
+          <serializedValue>http://webstrar20.fulton.asu.edu/page2/StepGoals.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -125,11 +124,10 @@
           <serializedValue>basicHttpBinding</serializedValue>
         </property>
         <property path="/bindingConfiguration" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-
-          <serializedValue>CalorieCalculatorServiceSoap2</serializedValue>
+          <serializedValue>StepGoalsSoap</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>CalorieCalculatorServiceReference.CalorieCalculatorServiceSoap</serializedValue>
+          <serializedValue>StepGoalsReference1.StepGoalsSoap</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -189,7 +187,7 @@
           <serializedValue>False</serializedValue>
         </property>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>CalorieCalculatorServiceSoap</serializedValue>
+          <serializedValue>StepGoalsSoap</serializedValue>
         </property>
         <property path="/kind" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

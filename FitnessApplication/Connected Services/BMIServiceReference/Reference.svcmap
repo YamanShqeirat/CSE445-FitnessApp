@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="be63e462-4392-45be-9cdd-8f2dfeefacfb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="57bc3f3f-f7d2-4e5b-9263-d700b72d7f21" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-
-    <MetadataSource Address="http://webstrar20.fulton.asu.edu/page0/CalorieCalculatorService.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://webstrar20.fulton.asu.edu/page1/BMICalculator.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CalorieCalculatorService1.wsdl" MetadataType="Wsdl" ID="a6abe235-8b45-4c99-b3fc-a723256eca4f" SourceId="1" SourceUrl="http://webstrar20.fulton.asu.edu/page0/CalorieCalculatorService.asmx?wsdl" />
-    <MetadataFile FileName="CalorieCalculatorService1.disco" MetadataType="Disco" ID="e676f776-bdeb-4e78-97d8-dc7903c99afb" SourceId="1" SourceUrl="http://webstrar20.fulton.asu.edu/page0/CalorieCalculatorService.asmx?disco" />
-
+    <MetadataFile FileName="BMICalculator1.wsdl" MetadataType="Wsdl" ID="aaf070f1-22dc-4dc9-af94-b8edb80d1c62" SourceId="1" SourceUrl="http://webstrar20.fulton.asu.edu/page1/BMICalculator.asmx?wsdl" />
+    <MetadataFile FileName="BMICalculator1.disco" MetadataType="Disco" ID="97c482c1-0eee-4ac0-a4c4-5cfb5c3ff435" SourceId="1" SourceUrl="http://webstrar20.fulton.asu.edu/page1/BMICalculator.asmx?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
