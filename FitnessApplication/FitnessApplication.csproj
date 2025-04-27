@@ -317,7 +317,6 @@
   <DependentUpon>MemberRecords.aspx</DependentUpon>
 </Compile>
 
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -400,27 +399,24 @@
   <DependentUpon>GenerateMotivationQuote.ascx</DependentUpon>
   <SubType>ASPXCodeBehind</SubType>
 </Compile>
+<Compile Include="User_Control\GenerateMotivationQuote.ascx.designer.cs">
+  <DependentUpon>GenerateMotivationQuote.ascx</DependentUpon>
+</Compile>
+<Compile Include="User_Control\RandomWorkout.ascx.cs">
+  <DependentUpon>RandomWorkout.ascx</DependentUpon>
+  <SubType>ASPXCodeBehind</SubType>
+</Compile>
+<Compile Include="User_Control\RandomWorkout.ascx.designer.cs">
+  <DependentUpon>RandomWorkout.ascx</DependentUpon>
+</Compile>
+<Compile Include="User_Control\SaveWorkoutPreference.ascx.cs">
+  <DependentUpon>SaveWorkoutPreference.ascx</DependentUpon>
+  <SubType>ASPXCodeBehind</SubType>
+</Compile>
+<Compile Include="User_Control\SaveWorkoutPreference.ascx.designer.cs">
+  <DependentUpon>SaveWorkoutPreference.ascx</DependentUpon>
+</Compile>
 
-      <DependentUpon>GenerateMotivationQuote.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User_Control\GenerateMotivationQuote.ascx.designer.cs">
-      <DependentUpon>GenerateMotivationQuote.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="User_Control\RandomWorkout.ascx.cs">
-      <DependentUpon>RandomWorkout.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User_Control\RandomWorkout.ascx.designer.cs">
-      <DependentUpon>RandomWorkout.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="User_Control\SaveWorkoutPreference.ascx.cs">
-      <DependentUpon>SaveWorkoutPreference.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User_Control\SaveWorkoutPreference.ascx.designer.cs">
-      <DependentUpon>SaveWorkoutPreference.ascx</DependentUpon>
-    </Compile>
     <Compile Include="User_Control\TimeControl.ascx.cs">
       <DependentUpon>TimeControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\memberpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\memberpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\memberpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\memberpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\servicedirectory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\servicedirectory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\memberlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\memberlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\fitnessapplication\\memberpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\memberpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|c:\\users\\chris\\source\\repos\\cse445-fitnessapp\\fitnessapplication\\memberlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\memberlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\fitnessapplication\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\fitnessapplication\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:fitnessapplication\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberPage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:FitnessApplication\\MemberPage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:FitnessApplication\\Register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:FitnessApplication\\Register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberLogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:FitnessApplication\\MemberLogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberLogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{33404614-BF19-4D2A-8E68-B9E3EA97E49D}|FitnessApplication\\FitnessApplication.csproj|solutionrelative:FitnessApplication\\MemberLogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceDirectory.aspx",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\ServiceDirectory.aspx",
+              "RelativeDocumentMoniker": "FitnessApplication\\ServiceDirectory.aspx",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\ServiceDirectory.aspx",
+              "RelativeToolTip": "FitnessApplication\\ServiceDirectory.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-27T23:26:59.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "FitnessApplication\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Default.aspx.cs",
+              "RelativeToolTip": "FitnessApplication\\Default.aspx.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwE8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:30:45.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Default.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Default.aspx.designer.cs",
+              "RelativeDocumentMoniker": "FitnessApplication\\Default.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Default.aspx.designer.cs",
+              "RelativeToolTip": "FitnessApplication\\Default.aspx.designer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:30:42.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Default.aspx",
               "RelativeDocumentMoniker": "FitnessApplication\\Default.aspx",
@@ -55,20 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.aspx",
-              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Register.aspx",
-              "RelativeDocumentMoniker": "FitnessApplication\\Register.aspx",
-              "ToolTip": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Register.aspx",
-              "RelativeToolTip": "FitnessApplication\\Register.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-27T05:19:08.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Register.aspx.cs",
               "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Register.aspx.cs",
               "RelativeDocumentMoniker": "FitnessApplication\\Register.aspx.cs",
@@ -76,12 +114,11 @@
               "RelativeToolTip": "FitnessApplication\\Register.aspx.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAHsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T05:19:18.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T05:19:18.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MemberPage.aspx",
               "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberPage.aspx",
               "RelativeDocumentMoniker": "FitnessApplication\\MemberPage.aspx",
@@ -94,20 +131,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MemberPage.aspx.cs",
               "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberPage.aspx.cs",
               "RelativeDocumentMoniker": "FitnessApplication\\MemberPage.aspx.cs",
               "ToolTip": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberPage.aspx.cs",
               "RelativeToolTip": "FitnessApplication\\MemberPage.aspx.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T05:35:42.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T05:35:42.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Register.aspx",
+              "RelativeDocumentMoniker": "FitnessApplication\\Register.aspx",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\Register.aspx",
+              "RelativeToolTip": "FitnessApplication\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-27T05:19:08.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MemberLogin.aspx.cs",
               "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberLogin.aspx.cs",
               "RelativeDocumentMoniker": "FitnessApplication\\MemberLogin.aspx.cs",
@@ -115,12 +163,11 @@
               "RelativeToolTip": "FitnessApplication\\MemberLogin.aspx.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAmwDYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T05:27:28.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T05:27:28.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MemberLogin.aspx",
               "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\CSE445-FitnessApp\\FitnessApplication\\MemberLogin.aspx",
               "RelativeDocumentMoniker": "FitnessApplication\\MemberLogin.aspx",
@@ -128,8 +175,7 @@
               "RelativeToolTip": "FitnessApplication\\MemberLogin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-27T05:27:25.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T05:27:25.766Z"
             }
           ]
         }

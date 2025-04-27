@@ -20,4 +20,24 @@
     <Username>erik20</Username>
     <PasswordHash>E326CFF641FB950A5BDB458E0D52EC6809F041C1618E70BFD22DD61165882AAD</PasswordHash>
   </Member>
+  <Member>
+    <Username>tom23</Username>
+    <PasswordHash>2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824</PasswordHash>
+  </Member>
+  <Member>
+    <Username>John27</Username>
+    <PasswordHash>2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824</PasswordHash>
+  </Member>
+  <Member>
+    <Username>Daniel</Username>
+    <PasswordHash>2CF24DBA5FB0A30E26E83B2AC5B9E29E1B161E5C1FA7425E73043362938B9824</PasswordHash>
+  </Member>
+  <Member>
+    <Username>Dan345</Username>
+    <PasswordHash>1734C8D3B028F603483D60AB3AB8A61CF6A41F93709CF47FA01D30A90EE2282C</PasswordHash>
+  </Member>
+  <Member>
+    <Username>david45</Username>
+    <PasswordHash>9EBF9B5978E6D486B0A66423715469B0E96F4B04C23D5061EC6C69BB29813A3B</PasswordHash>
+  </Member>
 </Members>
