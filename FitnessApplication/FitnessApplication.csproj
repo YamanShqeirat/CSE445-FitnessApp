@@ -44,15 +44,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClassLibrary2">
-      <HintPath>..\Lib\ClassLibrary2.dll</HintPath>
-    </Reference>
+  <Reference Include="ClassLibrary2">
+  <HintPath>..\Lib\ClassLibrary2.dll</HintPath>
+  </Reference>
+  <Reference Include="AspNet.ScriptManager.jQuery, Version=3.7.1.0, Culture=neutral, processorArchitecture=MSIL">
+  <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.7.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+  </Reference>
+
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -103,6 +109,38 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <None Include="Connected Services\BMIServiceReference\BMICalculator1.wsdl" />
+    <None Include="Connected Services\BMIServiceReference\configuration91.svcinfo" />
+    <None Include="Connected Services\BMIServiceReference\configuration.svcinfo" />
+    <None Include="Connected Services\BMIServiceReference\BMICalculator1.disco" />
+    <Content Include="Connected Services\BMIServiceReference\FitnessApplication.BMIServiceReference.CalculateBMIResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\BMIServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\CalorieCalculatorServiceReference\CalorieCalculatorService1.wsdl" />
+    <None Include="Connected Services\CalorieCalculatorServiceReference\configuration91.svcinfo" />
+    <None Include="Connected Services\CalorieCalculatorServiceReference\configuration.svcinfo" />
+    <None Include="Connected Services\CalorieCalculatorServiceReference\CalorieCalculatorService1.disco" />
+    <Content Include="Connected Services\CalorieCalculatorServiceReference\FitnessApplication.CalorieCalculatorServiceReference.CalculateCaloriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\CalorieCalculatorServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Connected Services\StepGoalsReference1\FitnessApplication.StepGoalsReference1.RecommendedStepsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\StepGoalsReference1\configuration91.svcinfo" />
+    <None Include="Connected Services\StepGoalsReference1\configuration.svcinfo" />
+    <None Include="Connected Services\StepGoalsReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\StepGoalsReference1\StepGoals1.disco" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -128,6 +166,8 @@
     <Content Include="MemberLogin.aspx" />
     <Content Include="MemberPage.aspx" />
     <Content Include="Register.aspx" />
+  <Content Include="MemberRecords.aspx" />
+
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -156,11 +196,12 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <None Include="Scripts\jquery-3.7.0.intellisense.js" />
-    <Content Include="Scripts\jquery-3.7.0.js" />
-    <Content Include="Scripts\jquery-3.7.0.min.js" />
-    <Content Include="Scripts\jquery-3.7.0.slim.js" />
-    <Content Include="Scripts\jquery-3.7.0.slim.min.js" />
+    <None Include="Connected Services\StepGoalsReference1\StepGoals1.wsdl" />
+    <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.1.js" />
+    <Content Include="Scripts\jquery-3.7.1.min.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
@@ -184,14 +225,21 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="ServiceDirectory.aspx" />
+    <Content Include="Services\BMICalculator.asmx" />
     <Content Include="Services\CalorieCalculatorService.asmx" />
+    <Content Include="Services\StepGoals.asmx" />
+
     <Content Include="Site.Master" />
     <Content Include="StaffLogin.aspx" />
+    <Content Include="TryCalorieBurnCalculator.aspx" />
     <Content Include="TryMotivationQuote.aspx" />
     <Content Include="TryWorkoutSaver.aspx" />
-    <Content Include="User Control\CalorieBurnCalculator.ascx" />
-    <Content Include="User Control\GenerateMotivationQuote.ascx" />
-    <Content Include="User Control\SaveWorkoutPreference.ascx" />
+    <Content Include="User_Control\CalorieBurnCalculator.ascx" />
+    <Content Include="User_Control\GenerateMotivationQuote.ascx" />
+    <Content Include="User_Control\RandomWorkout.ascx" />
+    <Content Include="User_Control\SaveWorkoutPreference.ascx" />
+    <Content Include="User_Control\TimeControl.ascx" />
+
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -207,6 +255,21 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Connected Services\BMIServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\CalorieCalculatorServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\StepGoalsReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -238,12 +301,22 @@
     <Compile Include="MemberLogin.aspx.designer.cs">
       <DependentUpon>MemberLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MemberPage.aspx.cs">
-      <DependentUpon>MemberPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MemberPage.aspx.designer.cs">
-      <DependentUpon>MemberPage.aspx</DependentUpon>
+<Compile Include="MemberPage.aspx.cs">
+  <DependentUpon>MemberPage.aspx</DependentUpon>
+  <SubType>ASPXCodeBehind</SubType>
+</Compile>
+<Compile Include="MemberPage.aspx.designer.cs">
+  <DependentUpon>MemberPage.aspx</DependentUpon>
+</Compile>
+
+<Compile Include="MemberRecords.aspx.cs">
+  <DependentUpon>MemberRecords.aspx</DependentUpon>
+  <SubType>ASPXCodeBehind</SubType>
+</Compile>
+<Compile Include="MemberRecords.aspx.designer.cs">
+  <DependentUpon>MemberRecords.aspx</DependentUpon>
+</Compile>
+
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
@@ -260,10 +333,20 @@
     <Compile Include="ServiceDirectory.aspx.designer.cs">
       <DependentUpon>ServiceDirectory.aspx</DependentUpon>
     </Compile>
+<Compile Include="Services\BMICalculator.asmx.cs">
+  <DependentUpon>BMICalculator.asmx</DependentUpon>
+  <SubType>Component</SubType>
+</Compile>
+
     <Compile Include="Services\CalorieCalculatorService.asmx.cs">
       <DependentUpon>CalorieCalculatorService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+<Compile Include="Services\StepGoals.asmx.cs">
+  <DependentUpon>StepGoals.asmx</DependentUpon>
+  <SubType>Component</SubType>
+</Compile>
+
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -285,6 +368,13 @@
     <Compile Include="StaffLogin.aspx.designer.cs">
       <DependentUpon>StaffLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TryCalorieBurnCalculator.aspx.cs">
+      <DependentUpon>TryCalorieBurnCalculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TryCalorieBurnCalculator.aspx.designer.cs">
+      <DependentUpon>TryCalorieBurnCalculator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TryMotivationQuote.aspx.cs">
       <DependentUpon>TryMotivationQuote.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -299,23 +389,44 @@
     <Compile Include="TryWorkoutSaver.aspx.designer.cs">
       <DependentUpon>TryWorkoutSaver.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User Control\CalorieBurnCalculator.ascx.cs">
-      <DependentUpon>CalorieBurnCalculator.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User Control\GenerateMotivationQuote.ascx.cs">
+<Compile Include="User_Control\CalorieBurnCalculator.ascx.cs">
+  <DependentUpon>CalorieBurnCalculator.ascx</DependentUpon>
+  <SubType>ASPXCodeBehind</SubType>
+</Compile>
+<Compile Include="User_Control\CalorieBurnCalculator.ascx.designer.cs">
+  <DependentUpon>CalorieBurnCalculator.ascx</DependentUpon>
+</Compile>
+<Compile Include="User_Control\GenerateMotivationQuote.ascx.cs">
+  <DependentUpon>GenerateMotivationQuote.ascx</DependentUpon>
+  <SubType>ASPXCodeBehind</SubType>
+</Compile>
+
       <DependentUpon>GenerateMotivationQuote.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User Control\GenerateMotivationQuote.ascx.designer.cs">
+    <Compile Include="User_Control\GenerateMotivationQuote.ascx.designer.cs">
       <DependentUpon>GenerateMotivationQuote.ascx</DependentUpon>
     </Compile>
-    <Compile Include="User Control\SaveWorkoutPreference.ascx.cs">
+    <Compile Include="User_Control\RandomWorkout.ascx.cs">
+      <DependentUpon>RandomWorkout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Control\RandomWorkout.ascx.designer.cs">
+      <DependentUpon>RandomWorkout.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Control\SaveWorkoutPreference.ascx.cs">
       <DependentUpon>SaveWorkoutPreference.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User Control\SaveWorkoutPreference.ascx.designer.cs">
+    <Compile Include="User_Control\SaveWorkoutPreference.ascx.designer.cs">
       <DependentUpon>SaveWorkoutPreference.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Control\TimeControl.ascx.cs">
+      <DependentUpon>TimeControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Control\TimeControl.ascx.designer.cs">
+      <DependentUpon>TimeControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -327,12 +438,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="MembersLog\" />
+<Folder Include="MembersLog\" />
+
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
-    <Content Include="Scripts\jquery-3.7.0.min.map" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -343,6 +455,12 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+<ItemGroup>
+  <WCFMetadataStorage Include="Connected Services\BMIServiceReference\" />
+  <WCFMetadataStorage Include="Connected Services\CalorieCalculatorServiceReference\" />
+  <WCFMetadataStorage Include="Connected Services\StepGoalsReference1\" />
+</ItemGroup>
+
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

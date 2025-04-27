@@ -2,7 +2,7 @@
          CodeBehind="TryCalorieBurnCalculator.aspx.cs"
          Inherits="FitnessApplication.TryCalorieBurnCalculator" %>
 
-<%@ Register Src="~/User Control/CalorieBurnCalculator.ascx"
+<%@ Register Src="~/User_Control/CalorieBurnCalculator.ascx"
              TagPrefix="uc" TagName="CalorieCalc" %>
 
 <!DOCTYPE html>

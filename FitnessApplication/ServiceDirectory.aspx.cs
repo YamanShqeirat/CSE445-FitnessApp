@@ -13,5 +13,17 @@ namespace FitnessApplication
         {
 
         }
+        protected void btnEndSession_Click(object sender, EventArgs e)
+        {
+            // Abandon the current session:
+            Session.Abandon();
+
+            // Redirect back to the same URL so the page refreshes without the old session:
+            Response.Redirect(Request.RawUrl, false);
+
+            // Ensure ASP.NET terminates the current request pipeline here:
+            Context.ApplicationInstance.CompleteRequest();
+        }
+
     }
 }

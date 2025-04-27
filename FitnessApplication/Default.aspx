@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="FitnessApplication._Default" %>
-<%@ Register Src="~/User Control/GenerateMotivationQuote.ascx" TagPrefix="uc" TagName="Motivation" %>
-<%@ Register Src="~/User Control/SaveWorkoutPreference.ascx" TagPrefix="uc" TagName="Preference" %>
-<%@ Register Src="~/User Control/CalorieBurnCalculator.ascx"TagPrefix="uc" TagName="CalorieCalc" %>
+
+<%@ Register Src="~/User_Control/GenerateMotivationQuote.ascx"  TagPrefix="uc" TagName="Motivation" %>
+<%@ Register Src="~/User_Control/SaveWorkoutPreference.ascx"    TagPrefix="uc" TagName="Preference" %>
+<%@ Register Src="~/User_Control/CalorieBurnCalculator.ascx"    TagPrefix="uc" TagName="CalorieCalc" %>
+<%@ Register Src="~/User_Control/TimeControl.ascx"              TagPrefix="uc" TagName="Timer"      %>
+<%@ Register Src="~/User_Control/RandomWorkout.ascx"            TagPrefix="uc" TagName="RandomWorkout" %>
+
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
@@ -50,6 +54,12 @@
             </div>
         </section>
 
+        <!--Random Workout Generator-->
+        <h4>Random Workout</h4>
+        <uc:RandomWorkout ID="RandomWorkout1" runat="server" />
+        <hr />
+
+
         <!--Member, Staff, and Service directory cards-->
         <div class="row">
             <section class="col-md-4" aria-labelledby="memberTitle">
@@ -66,8 +76,8 @@
             <section class="col-md-4" aria-labelledby="staffTitle">
                 <h2 id="staffTitle"> Staff </h2>
                 <p>
-                    Maintain the platform, test services, and manage application data with full access to backend tools. 
-                    Perfect for developers, admins, or those ensuring everything runs smoothly
+                    Authorized staff can log in to securely view and manage member records, including height, 
+                    weight, and BMI information.
                 </p>
                 <p>
                     <a class="btn btn-default" href="StaffLogin.aspx">Log in &raquo;</a>
@@ -85,7 +95,7 @@
             </section>
         </div>
 
-        <!--Motivational Quote-->
+        <!--Motivational Quote section-->
 
         <div class="row">
             <section class="dailyQuote" aria-activedescendant="quoteTitle">
@@ -94,8 +104,38 @@
             </section>
         </div>
 
-        <!-- Calorie Burn Calculator Section -->
+        <!--Timer Section -->
         <div class="row">
+            <section class="col-md-4" aria-labelledby="timerTitle">
+                <h2 id="timerTitle">Workout Timer</h2>
+                <p>Keep track of elapsed time during your session.</p>
+
+                <uc:Timer ID="WorkoutTimer" runat="server" />
+            </section>
+        </div>
+
+        <!-- Calorie Burn Calculator Section && BMI Calculator Section -->
+        <div class="row">
+            <!--BMI Calculator0-->
+             <section class="col-md-4" aria-labelledby="bmiTitle">
+            <h2 id="bmiTitle">Try the BMI Calculator</h2>
+
+            <label for="txtBMIHeight">Height (cm)</label>
+            <asp:TextBox ID="txtBMIHeight" runat="server" CssClass="calc-input" />
+
+            <label for="txtBMIWeight">Weight (kg)</label>
+            <asp:TextBox ID="txtBMIWeight" runat="server" CssClass="calc-input" />
+
+            <asp:Button ID="btnCalcBMI" runat="server"
+                        Text="Calculate BMI"
+                        CssClass="btn btn-calc"
+                        OnClick="btnCalcBMI_Click" />
+
+            <asp:Label  ID="lblBMIResult" runat="server"
+                        CssClass="calc-result" />
+          </section>
+
+            <!--Calorie Burn Calculator-->
             <section class="col-md-4" aria-labelledby="calorieTitle">
                 <h2 id="calorieTitle">Try the Calorie Burn Calculator</h2>
                 <p>
@@ -141,10 +181,33 @@
                                runat="server"
                                CssClass="calc-result" />
                 </div>
-
                 <!-- Integrated User Control (unchanged) -->
                 <uc:CalorieCalc ID="CalorieCalc1" runat="server" />
             </section>
+
+            <!--Step Goal-->
+            <section class="col-md-4" aria-labelledby="stepsTitle">
+                <h2 id="stepsTitle">Step Goal Advisor</h2>
+
+                <label for="txtAge">Age</label>
+                <asp:TextBox ID="txtAge" runat="server" CssClass="calc-input" />
+
+                <label for="ddlActivityLevel">Activity Level</label>
+                <asp:DropDownList ID="ddlActivityLevel" runat="server" CssClass="calc-input">
+                    <asp:ListItem Text="--Select--" Value="" />
+                    <asp:ListItem Text="Low"      Value="Low" />
+                    <asp:ListItem Text="Moderate" Value="Moderate" />
+                    <asp:ListItem Text="High"     Value="High" />
+                </asp:DropDownList>
+
+                <asp:Button ID="btnGetSteps" runat="server"
+                    Text="Get Step Goal"
+                    CssClass="btn btn-calc"
+                    OnClick="btnGetSteps_Click" />
+
+                <asp:Label ID="lblStepResult" runat="server"
+                    CssClass="calc-result" />
+             </section>
         </div>
 
     </main>
