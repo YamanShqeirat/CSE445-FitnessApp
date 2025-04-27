@@ -75,8 +75,8 @@
             <section class="col-md-4" aria-labelledby="staffTitle">
                 <h2 id="staffTitle"> Staff </h2>
                 <p>
-                    Maintain the platform, test services, and manage application data with full access to backend tools. 
-                    Perfect for developers, admins, or those ensuring everything runs smoothly
+                    Authorized staff can log in to securely view and manage member records, including height, 
+                    weight, and BMI information.
                 </p>
                 <p>
                     <a class="btn btn-default" href="StaffLogin.aspx">Log in &raquo;</a>
