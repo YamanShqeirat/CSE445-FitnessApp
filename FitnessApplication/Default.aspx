@@ -59,7 +59,8 @@
                     motivated and on track with your goals. Designed for you, powered by your progress.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="MemberLogin.aspx">Sign in/Sign up &raquo;</a>
+                    <a class="btn btn-default" href="MemberLogin.aspx">Sign in &raquo;</a>
+                    <a class="btn btn-default" href="Register.aspx">Sign up &raquo;</a>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="staffTitle">

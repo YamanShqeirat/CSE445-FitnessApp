@@ -211,3 +211,105 @@ button {
     margin: 5px;
 
 }
+
+/* ============ REGISTER PAGE ============ */
+
+.register-wrapper {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+    .register-wrapper h2 {
+        text-align: center;
+        color: #333;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.register-wrapper label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.register-wrapper input[type="text"],
+.register-wrapper input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #fff;
+    color: #000;
+}
+
+    .register-wrapper input[type="text"]::placeholder,
+    .register-wrapper input[type="password"]::placeholder {
+        color: #888;
+    }
+
+.captcha-image {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.error-label {
+    color: #c62828;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.register-button,
+.login-button,
+.home-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.register-button {
+    background-color: #007bff;
+    color: white;
+}
+
+    .register-button:hover {
+        background-color: dimgray;
+    }
+
+.login-button {
+    background-color: #28a745;
+    color: white;
+}
+
+    .login-button:hover {
+        background-color: dimgray;
+    }
+
+.home-button {
+    background-color: #17a2b8;
+    color: white;
+}
+
+    .home-button:hover {
+        background-color: dimgray;
+    }
+
+
+
